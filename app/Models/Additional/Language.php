@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Additional;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class District extends Model
+class Language extends Model
 {
     use HasFactory;
 

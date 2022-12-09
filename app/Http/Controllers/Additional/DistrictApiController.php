@@ -1,7 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Additional;
 
+use App\Http\Controllers\Controller;
+use App\Models\Additional\District;
 use Illuminate\Http\Request;
 
 class DistrictApiController extends Controller
@@ -13,7 +15,7 @@ class DistrictApiController extends Controller
      */
     public function index()
     {
-        //
+        return District::latest()->get();
     }
 
     /**

@@ -1,10 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Additional;
+
+use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class MediaFileApiController extends Controller
+class WeekApiController extends Controller
 {
     /**
      * Display a listing of the resource.

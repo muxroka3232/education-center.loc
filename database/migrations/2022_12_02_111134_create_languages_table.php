@@ -15,9 +15,9 @@ return new class extends Migration
     {
         Schema::create('languages', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('url');
-            $table->string('image');
+            $table->string('name')->nullable();
+            $table->string('url')->nullable();
+            $table->string('image')->nullable();
             $table->integer('status')->default(0);
             $table->boolean('default')->default(false);
             $table->timestamps();

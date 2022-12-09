@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Additional;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
-class SubjectApiController extends Controller
+use App\Models\Additional\Region;
+class RegionApiController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,7 @@ class SubjectApiController extends Controller
      */
     public function index()
     {
-        //
+        return Region::latest()->get();
     }
 
     /**
@@ -24,7 +25,7 @@ class SubjectApiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // return Region::create($request->all());
     }
 
     /**

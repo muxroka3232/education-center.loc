@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Additional;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Week extends Model
+class Region extends Model
 {
     use HasFactory;
 

@@ -2,12 +2,12 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\DistrictApiController;
-use App\Http\Controllers\RegionApiController;
-use App\Http\Controllers\SubjectApiController;
-use App\Http\Controllers\WeekApiController;
-use App\Http\Controllers\MediaFileApiController;
-use App\Http\Controllers\LanguageApiController;
+use App\Http\Controllers\Additional\DistrictApiController;
+use App\Http\Controllers\Additional\RegionApiController;
+use App\Http\Controllers\Additional\SubjectApiController;
+use App\Http\Controllers\Additional\WeekApiController;
+use App\Http\Controllers\Additional\MediaFileApiController;
+use App\Http\Controllers\Additional\LanguageApiController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
